@@ -1,0 +1,65 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Node.js / Vite (ECommercePlatform)
+# ==========================================
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Python (embedding-service)
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# .NET / C# (PlatformApi)
+# ==========================================
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# IDE / User-specific files
+.idea/
+*.DotSettings.user
+*.user
+*.suo
+*.rsuser
+
+# Environment/Secrets (Optional but recommended)
+appsettings.Development.json
